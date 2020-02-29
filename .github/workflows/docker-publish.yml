@@ -13,8 +13,8 @@ on:
   push:
     paths:
       - 'Dockerfile'
-  schedule:
-    - cron: 0 22 * * 5
+  #schedule:
+  #  - cron: 0 22 * * 5
 
 jobs:
   publish:
